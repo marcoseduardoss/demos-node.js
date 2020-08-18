@@ -10,5 +10,5 @@ fs.writeFile("./teste/arq1.txt", "blz", function (){
 })
 
 fs.readFile("./teste/arq1.txt", function(err, data) {
-    console.log("consteúdo do arquivo: "+ data.toString());
+    console.log("Consteúdo do arquivo incluído com sucesso: "+ data.toString());
 })
