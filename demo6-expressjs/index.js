@@ -8,7 +8,11 @@ app.get('/', (req, res) => {
 
 app.get('/pt', (req, res) => {
     res.send('Olá Mundo!')
-  })
+})
+
+app.post("/post", function (req, res) {
+  res.send({ status: "OK" });
+});
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
