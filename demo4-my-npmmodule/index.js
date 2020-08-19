@@ -1,13 +1,8 @@
 /**
  * PUC-Minas / Arquitetura de Sistemas Distribuídos
  * Author: Marcos Eduardo da Silva Santos
- * File: my-module/funcoes.js
- * GitHub: 
  */
 const calc = require('mathematical-functions-node-module');
-
-const x = 10;
-const y = 2;
 
 try {
 
