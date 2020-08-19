@@ -1,5 +1,5 @@
 {
-  "name": "demo4-my-module",
+  "name": "demo6-expressjs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Marcos Eduardo",
-  "license": "ISC",
+  "author": "marcoseduardoss <marcoseduardoss@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "mathematical-functions-node-module": "0.0.1"
+    "express": "^4.17.1"
   }
 }
